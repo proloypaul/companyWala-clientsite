@@ -14,7 +14,8 @@ module.exports = {
       },
       colors:{
         primery: 'var(--primery-color)',
-        secondary: 'var(--secondary-color)'
+        secondary: 'var(--secondary-color)',
+        Deep: 'var(--Deep-color)',
       },
     },
   },
