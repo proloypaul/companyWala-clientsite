@@ -7,7 +7,7 @@ import { HiUser } from "react-icons/hi2";
 
 const Navbar = () => {
     return (
-        <nav className=' font-serif'>
+        <nav className='font-serif'>
             <header>
                 <div className='sticky top-0 lg:flex justify-between items-center px-10 py-5'>
                     <div>
@@ -25,8 +25,8 @@ const Navbar = () => {
                     </div>
                     <div>
                         <ul className='flex items-center'>
-                            <li className='relative'><Link href="/" className='px-4 text-primery text-3xl flex'><FaCartArrowDown /></Link> </li>
-                            <li className='mx-3'><Link href="/" className='py-3 px-6 bg-primery border-0 rounded-tl-lg rounded-br-lg text-white'>LogIn</Link></li>
+                            <li className='relative'><Link href="/" className='transition ease-in-out px-4 text-primery text-3xl flex duration-300'><FaCartArrowDown /></Link> </li>
+                            <li className='mx-3'><Link href="/login" className='transition ease-in-out py-3 px-6 bg-primery border-0 rounded-tl-lg rounded-br-lg text-white shadow shadow-inner hover:shadow-xl duration-300'>LogIn</Link></li>
                             <li><Link href="/"  className='py-3 px-3 text-3xl text-secondary border-0 rounded-full flex'><HiUser/></Link></li>
                         </ul>
                     </div>

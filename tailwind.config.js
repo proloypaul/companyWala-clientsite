@@ -22,6 +22,7 @@ module.exports = {
         primery: 'var(--primery-color)',
         secondary: 'var(--secondary-color)',
         Deep: 'var(--Deep-color)',
+        personalWhite: 'var(--personalWhite-color)',
       },
     },
   },
