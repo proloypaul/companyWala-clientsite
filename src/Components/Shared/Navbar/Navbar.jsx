@@ -20,11 +20,12 @@ const Navbar = () => {
                             <li><Link href="/explore">Explore</Link></li>
                             <li className='mx-3'><Link href="/company">Company</Link></li>
                             <li><Link href="/products">Products</Link></li>
+                            <li className='ml-3'><Link href="/offers">offers</Link></li>
                         </ul>
                     </div>
                     <div>
                         <ul className='flex items-center'>
-                            <li className='relative'><Link href="/" className='py-2 px-4 bg-primery border-0 rounded-full rounded-full text-white text-3xl flex'><FaCartArrowDown /></Link> </li>
+                            <li className='relative'><Link href="/" className='px-4 text-primery text-3xl flex'><FaCartArrowDown /></Link> </li>
                             <li className='mx-3'><Link href="/" className='py-3 px-6 bg-primery border-0 rounded-tl-lg rounded-br-lg text-white'>LogIn</Link></li>
                             <li><Link href="/"  className='py-3 px-3 text-3xl text-secondary border-0 rounded-full flex'><HiUser/></Link></li>
                         </ul>
