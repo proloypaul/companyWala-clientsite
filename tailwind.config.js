@@ -23,6 +23,7 @@ module.exports = {
         secondary: 'var(--secondary-color)',
         Deep: 'var(--Deep-color)',
         personalWhite: 'var(--personalWhite-color)',
+        bgColor: 'var(--bgColor-color)',
       },
     },
   },
